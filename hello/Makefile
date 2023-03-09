@@ -11,4 +11,4 @@ Hello: hello.c
 	$(CC) $(CFLAGS) -o hello hello.c
 
 clean veryclean:
-	$(RM) Hello
+	$(RM) hello
