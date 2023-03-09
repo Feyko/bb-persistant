@@ -1,10 +1,15 @@
+import io
 import buildbot_worker
-import pyqrcode
+import qrcode
 
 
 def to_ascii_qr_code(text: str) -> str:
-    qr = pyqrcode.create(text)
-    return qr.terminal()
+    qr = qrcode.QRCode()
+    qr.add_data(text)
+    out = io.StringIO()
+    qr.print_ascii(out=out)
+    out.seek(0)
+    return out.read()
 
 
 if __name__ == '__main__':
