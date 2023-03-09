@@ -125,3 +125,9 @@ dmypy.json
 
 .idea/
 /master/gitpoller-workdir/objects/
+
+master/state.sqlite
+
+master/twistd.pid
+
+worker/twistd.pid
