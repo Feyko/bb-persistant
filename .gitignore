@@ -124,10 +124,10 @@ dmypy.json
 .pyre/
 
 .idea/
-/master/gitpoller-workdir/objects/
+/buildbot/master/gitpoller-workdir/objects/
 
-master/state.sqlite
+buildbot/master/state.sqlite
 
-master/twistd.pid
+buildbot/master/twistd.pid
 
-worker/twistd.pid
+buildbot/worker/twistd.pid

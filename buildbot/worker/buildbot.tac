@@ -4,7 +4,7 @@ import os
 from buildbot_worker.bot import Worker
 from twisted.application import service
 
-basedir = '/home/feyko/Documents/Development/Python/bb-persistant/worker'
+basedir = '/home/feyko/Documents/Development/Python/bb-persistant/buildbot/worker'
 rotateLength = 10000000
 maxRotatedFiles = 10
 
